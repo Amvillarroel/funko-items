@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="style-item.css">
+    <title>Los Patos Programadores</title>    
+    <!-- Scripts para bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+     <!--Barra de navegación-->
+     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+           <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+            <img src="images/funko-icon.svg" alt="Logo">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      SHOP
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACTO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">LOGIN</a>
+              </li>
+              <li class="nav-item">
+                <IMG src="images/cart-icon-1.svg" alt="carrito de compras">
+              </li>
+            </ul>
+           </div>
+        </div>
+      </nav>
+
+
+<!-- Contenido-->
+<div class="container contenido">
+  <div class="row">
+    
+    <div class="col-lg-6 col-sm-12">
+      <img src="images/baby-yoda-1 1.png" alt="Baby Joda">
+    </div>
+    
+    <div class="col-lg-6 col-sm-12 descripcion-contenido">
+      <p class="categoria">STAR WARS</p>
+      <p class="personaje">BABY YODA BLUEBALL</p>
+      <p class="descripcion-personaje">Figura coleccionable de Baby Yoda (Grogu) - The Mandalorian Saga, edición limitada.</p>
+      <p class="precio-personaje">$ 1799,99.-</p>
+      <div>
+      <span class="agregar-eliminar">-</span><span class="cantidad">0</span><span class="agregar-eliminar">+</span><span class="agregar-carrito">Agregar al carrito</span>
+      <p class="metodos-de-pago">Ver métodos de pago - 3 CUOTAS SIN INTERÉS</p>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<!--PRODUCTOS RELACIONADOS-->
+<section class="productos-relacionados">
+  <div class="container">
+  <h2>PRODUCTOS RELACIONADOS</h2>
+  </div>
+
+<!--Carousel-->
+
+<div id="carousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col">
+          <!--Producto 1-->    
+          <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="figura-nuevo">
+            <span class="nuevo">NUEVO</span>
+            <img src="images/star-wars/trooper-1.webp" alt="Trooper - Star wars">
+          </div>
+          <p class="linea-producto">STAR WARS</p>
+          <p class="descripcion-producto-relacionado">STORMTROOPER LIGHTSABER</p>
+          <p class="precio-producto-relacionado">$ 1799,99.-</p>
+          <p class="promocion-ultimoslanzamientos">3 cuotas sin interés</p>          
+        </div>
+        </div>
+          
+          <!--Producto 2-->
+        <div class="col">              
+          <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="figura-nuevo">
+          <span class="nuevo">NUEVO</span>
+          <img src="images/pokemon/pidgeotto-1.webp" alt="Pidgeotto - POKEMÓN">
+          </div>
+          <p class="linea-producto">POKEMÓN</p>
+          <p class="descripcion-producto-relacionado">PIDGEOTTO</p>
+          <p class="precio-producto-relacionado">$ 1799,99.-</p>
+          <p class="promocion-ultimoslanzamientos">3 cuotas sin interés</p>
+          </div>
+        </div>
+        
+         <!--Producto 3-->    
+        <div class="col">
+          <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="figura-nuevo">
+          <span class="nuevo">NUEVO</span>
+          <img src="images/harry-potter/luna-1.webp" alt="Luna - Harry Potter">
+          </div>       
+          <p class="linea-producto">HARRY POTTER</p>
+          <p class="descripcion-producto-relacionado">LUNA LOVEGOOD LION MASK</p>
+          <p class="precio-producto-relacionado">$ 1799,99.-</p>
+          <p class="promocion-ultimoslanzamientos">3 cuotas sin interés</p>
+         </div>
+        </div>   
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="row">
+         <!--Producto 1-->    
+          <div class="col">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="figura-nuevo">
+            <span class="nuevo">NUEVO</span>
+            <img src="images/star-wars/bobbafeth-1.webp" alt="Bobba - Star wars">
+            </div>
+            <p class="linea-producto">STAR WARS</p>
+            <p class="descripcion-producto-relacionado">BOBBAFETH</p>
+            <p class="precio-producto-relacionado">$ 1799,99.-</p>
+            <p class="promocion-ultimoslanzamientos">3 cuotas sin interés</p>          
+           </div>
+          </div>
+        
+          <div class="col">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="figura-nuevo">
+            <span class="nuevo">NUEVO</span>
+            <img src="images/pokemon/pikachu-1.webp" alt="PIKACHU - POKEMÓN">
+            </div>
+            <p class="linea-producto">POKEMÓN</p>
+            <p class="descripcion-producto-relacionado">PIKACHU</p>
+            <p class="precio-producto-relacionado">$ 1799,99.-</p>
+            <p class="promocion-ultimoslanzamientos">3 cuotas sin interés</p>          
+             </div>
+          </div>
+        
+          <div class="col">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="figura-nuevo">
+            <span class="nuevo">NUEVO</span>
+            <img src="images/harry-potter/harry-1.webp" alt="HARRY POTTER - HARRY POTTER">
+            </div>
+            <p class="linea-producto">HARRY POTTER</p>
+            <p class="descripcion-producto-relacionado">HARRY POTTER</p>
+            <p class="precio-producto-relacionado">$ 1799,99.-</p>
+            <p class="promocion-ultimoslanzamientos">3 cuotas sin interés</p>          
+           </div>
+          </div>      
+      </div>
+    </div>
+   
+    <div class="carousel-item">
+      <div class="row">
+         <!--Producto 1-->    
+          <div class="col">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="figura-nuevo">
+            <span class="nuevo">NUEVO</span>
+            <img src="images/star-wars/luke-1.webp" alt="Luke - Star wars">
+            </div>
+            <p class="linea-producto">STAR WARS</p>
+            <p class="descripcion-producto-relacionado">LUKE</p>
+            <p class="precio-producto-relacionado">$ 1799,99.-</p>
+            <p class="promocion-ultimoslanzamientos">3 cuotas sin interés</p>          
+           </div>
+          </div>
+        
+          <div class="col">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="figura-nuevo">
+            <span class="nuevo">NUEVO</span>
+            <img src="images/pokemon/charmander-1.webp" alt="cHARMANDER - POKEMÓN">
+            </div>
+            <p class="linea-producto">POKEMÓN</p>
+            <p class="descripcion-producto-relacionado">CHARMANDER</p>
+            <p class="precio-producto-relacionado">$ 1799,99.-</p>
+            <p class="promocion-ultimoslanzamientos">3 cuotas sin interés</p>          
+             </div>
+          </div>
+        
+          <div class="col">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="figura-nuevo">
+            <span class="nuevo">NUEVO</span>
+            <img src="images/harry-potter/hermione-1.webp" alt="HERMIONE - HARRY POTTER">
+            </div>
+            <p class="linea-producto">HARRY POTTER</p>
+            <p class="descripcion-producto-relacionado">HERMIONE</p>
+            <p class="precio-producto-relacionado">$ 1799,99.-</p>
+            <p class="promocion-ultimoslanzamientos">3 cuotas sin interés</p>          
+           </div>
+          </div>      
+      </div>
+    </div>
+   
+
+  </div>
+  <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only"></span>
+  </a>
+  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only"></span>
+  </a>
+</div>
+
+</section>
+
+<!--Pie de página (footer)-->
+<footer>
+
+  <div class="container">
+    <div class="row">
+      <div class="login-footer col-lg-6">
+        <p>SHOP</p>
+        <p>REGISTRARSE</p>
+        <p>INGRESAR</p>
+        <p>CONTACTO</p>
+      </div>
+      <div class="col-lg-6">
+        <img src="images/Group 3.svg" alt="imagen funko" class="imagen-footer">
+      </div>
+    </div>    
+  </div>
+  <p class="copyright">All rights reserved 2022 - Funkoshop All rights reserved 2022 - Funkoshop</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
